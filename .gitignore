@@ -1,0 +1,6 @@
+# exclude everything except directory foo/bar
+.env
+node_modules
+build
+npm-debug.log
+.DS_Store
