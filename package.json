@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "description": "Books API",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "11.x"
   },
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "nodemon index.js",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "pg": "^7.17.1"
   },
